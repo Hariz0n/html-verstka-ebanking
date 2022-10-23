@@ -1,0 +1,253 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+.header {
+  margin-bottom: 70px;
+}
+
+.nav {
+  padding: 27px 0px;
+}
+
+.nav__block {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__item {
+  list-style: none;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.nav__item::after {
+  display: block;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #21243D;
+  transition: all 0.2s ease-in-out;
+}
+.nav__item:not(:first-child) {
+  margin-left: 33px;
+}
+.nav__item:hover::after {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 856px;
+}
+.container_wide {
+  max-width: 1032px;
+}
+
+.hero {
+  padding: 70px 0px;
+}
+.hero__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 59.112%;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 6rem;
+  margin-bottom: 4rem;
+}
+.hero__description {
+  margin-bottom: 38px;
+}
+.hero__img {
+  width: 28.388%;
+  object-fit: cover;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in;
+}
+.hero__img:hover {
+  transform: scale(1.2);
+}
+
+.btn {
+  display: block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  background-color: #FF6464;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 13px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  color: #FF6464;
+  background-color: #fff;
+  outline: 1px solid #FF6464;
+}
+
+.section-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-info__title {
+  line-height: 6rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.posts {
+  background-color: #EDF7FA;
+  padding-top: 7px;
+  padding-bottom: 32px;
+}
+.posts__link {
+  text-decoration: none;
+  color: #00A8CC;
+}
+.posts__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.posts__card {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  flex-grow: 0;
+  width: 48.8%;
+  padding: 2.4rem;
+  transition: transform 0.2s ease-in;
+}
+.posts__card:hover {
+  transform: translateY(-10px);
+}
+.posts__title {
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin-bottom: 18px;
+}
+.posts__tags {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.works {
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+.works__blocks {
+  display: flex;
+  flex-direction: column;
+}
+.works__block {
+  min-height: 217px;
+  padding: 15px 0;
+  border-bottom: 1px solid #E0E0E0;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-bottom: 15px;
+}
+.works__img {
+  width: 28.388%;
+  border-radius: 0.6rem;
+}
+.works__info {
+  width: 69.393%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.works__title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.works__basics {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.works__date {
+  font-size: 1.8rem;
+  background-color: #142850;
+  border-radius: 1.6rem;
+  padding: 0 1rem;
+  font-weight: 900;
+  color: #fff;
+}
+.works__tag {
+  font-size: 2rem;
+  color: #8695A4;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 182px;
+  gap: 26px;
+}
+.footer__copyright {
+  font-size: 1.4rem;
+}
+
+.social {
+  display: flex;
+  gap: 35px;
+  line-height: 0;
+}
+.social__icon {
+  width: 30px;
+  aspect-ratio: 1/1;
+  fill: #21243D;
+  transition: fill 0.2s ease-in-out;
+}
+.social__icon:hover {
+  fill: #464c7d;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  color: #21243D;
+}
+
+a {
+  text-decoration: none;
+  color: #21243D;
+}
