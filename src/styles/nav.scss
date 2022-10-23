@@ -1,0 +1,34 @@
+.nav {
+    padding: 27px 0px;
+}
+
+.nav__block {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__item {
+    list-style: none;
+    font-weight: 500;
+    font-size: 2rem;
+    
+
+    &::after {
+        display: block;
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: #21243D;
+        transition: all .2s ease-in-out;
+    }
+
+    &:not(:first-child) {
+        margin-left: 33px;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}

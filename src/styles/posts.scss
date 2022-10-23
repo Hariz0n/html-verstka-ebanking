@@ -1,0 +1,41 @@
+.posts {
+    background-color: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 32px;
+
+    &__link {
+        text-decoration: none;
+        color: #00A8CC;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__card {
+        background-color: #fff;
+        border-radius: 0.4rem;
+        flex-grow: 0;
+        width: 48.8%;
+        padding: 2.4rem;
+        transition: transform .2s ease-in;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.6rem;
+        margin-bottom: 18px;
+    }
+
+    &__tags {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+}

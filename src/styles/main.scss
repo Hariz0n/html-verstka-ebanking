@@ -1,0 +1,38 @@
+@use './header.scss';
+@use 'nav.scss';
+@use 'container.scss';
+@use 'hero.scss';
+@use 'btn.scss';
+@use 'section-info.scss';
+@use 'posts.scss';
+@use 'works.scss';
+@use 'footer.scss';
+@use 'social.scss';
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    color: #21243D;
+}
+
+a {
+    text-decoration: none;
+    color: #21243D;
+}
+

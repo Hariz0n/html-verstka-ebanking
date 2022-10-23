@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 182px;
+    gap: 26px;
+
+    &__copyright {
+        font-size: 1.4rem;
+    }
+}

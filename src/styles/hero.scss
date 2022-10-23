@@ -1,0 +1,35 @@
+.hero {
+    padding: 70px 0px;
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__text-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 59.112%;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 4.4rem;
+        line-height: 6rem;
+        margin-bottom: 4rem;
+    }
+    &__description {
+        margin-bottom: 38px;
+    }
+    &__img {
+        width: 28.388%;
+        object-fit: cover;
+        overflow: hidden;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        transition: transform .2s ease-in;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

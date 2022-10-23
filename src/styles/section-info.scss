@@ -1,0 +1,10 @@
+.section-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        line-height: 6rem;
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+}

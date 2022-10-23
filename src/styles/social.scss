@@ -1,0 +1,22 @@
+.social {
+    display: flex;
+    gap: 35px;
+    line-height: 0;
+
+    &__icon {
+        width: 30px;
+        aspect-ratio: 1 / 1;
+        fill: #21243D;
+        transition: fill .2s ease-in-out;
+        &:hover {
+            fill: #464c7d;
+        }
+    }
+
+    // &__link {
+    //     transition: all .2s ease-in;
+    //     &:hover .social__icon{
+    //         fill: aqua;
+    //     }
+    // }
+}
